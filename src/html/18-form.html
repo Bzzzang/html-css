@@ -11,8 +11,12 @@
     <form action="/">
       <fieldset>
         <legend>input 요소를 활용한 다양한 양식 만들기</legend>
-        <p><input type="text" /></p>
-        <p><input type="search" name="" id="" /></p>
+        <p><input type="text" name="user-name" id="user-name" required /></p>
+        <p><input type="search" name="search" id="search" /></p>
+        <p><input type="email" name="user-email" id="user-eamil" required /></p>
+        <p><input type="tel" name="user-phone" id="user-phone" required /></p>
+
+        <button type="submit">전송</button>
       </fieldset>
     </form>
   </body>
