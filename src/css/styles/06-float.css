@@ -1,0 +1,35 @@
+.container div {
+  /* width: 100px;
+  inline-size: 100px; */
+  height: 100px;
+  block-size: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container {
+  border: 5px solid currentColor;
+}
+
+div.box1 {
+  background-color: pink;
+  float: left;
+  width: 100px;
+  inline-size: 100px;
+}
+
+div.box2 {
+  background-color: skyblue;
+  height: auto;
+  block-size: auto;
+  line-height: 1;
+}
+
+div.box3 {
+  background-color: lightgreen;
+  clear: left;
+}
+
+div.box4 {
+  background-color: lightgoldenrodyellow;
+}
