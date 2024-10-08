@@ -1,0 +1,53 @@
+@import "./../../common/normalize.css";
+
+body {
+  font-family: "Pretendard Varialble", Pretendard, sans-serif;
+}
+
+.unit-px {
+  font-size: 20px;
+}
+
+.unit-em-wrapper {
+  font-size: 1.5em;
+}
+
+.unit-em {
+  font-size: 1.5em;
+}
+
+.unit-rem-wrapper {
+  font-size: 1.5em;
+}
+
+.unit-rem {
+  font-size: 0.75rem;
+}
+
+.unit-percentage-wrapper {
+  font-size: 1.5em;
+}
+
+.unit-percentage {
+  font-size: 150%;
+}
+
+.unit-vw {
+  font-size: 3vw;
+}
+
+.unit-color-name {
+  color: darkblue;
+}
+
+.unit-color-hex {
+  color: #ff0000;
+}
+
+.unit-color-rgb {
+  color: rgb(23, 134, 79);
+}
+
+.unit-color-hsl {
+  color: hsl(23, 77%, 38%);
+}
