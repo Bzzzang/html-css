@@ -1,0 +1,37 @@
+@import "./../../common/modern-reset.css";
+
+div:not(#awebChromeHelper) {
+  padding: 10px;
+  border: 1px solid;
+  font-size: 3rem;
+}
+
+.sticky {
+  background-color: lightgreen;
+  padding: 20px;
+  margin-block: 100px;
+  position: sticky;
+  inset-block-start: 0;
+}
+
+.static {
+  background: pink;
+}
+
+.fixed {
+  background-color: hotpink;
+  position: fixed;
+  inset-inline-end: 0;
+  inset-block-end: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  background-color: skyblue;
+  position: absolute;
+  inset-inline-start: 100px;
+  inset-block-start: 0px;
+}
