@@ -1,0 +1,28 @@
+@import "./../../common/modern-reset.css";
+
+body {
+  margin: 50px;
+  font-family: "Pretendard Varialble", Pretendard, sans-serif;
+  background-color: rgb(240, 195, 232);
+  background-image: url(./../../assets/images/rabbit.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+}
+
+.bg-text-gradient {
+  background-color: skyblue;
+  margin-block: 20px;
+  background-image: linear-gradient(-45deg, blue, white);
+}
+
+.bg-origin {
+  margin-inline: auto;
+  inline-size: 800px;
+  /* background-color: skyblue;
+  background-image: url(./../../assets/thumbnail/meeting-room.jpg);
+  background-origin: border-box; */
+  padding: 20px;
+  border: 20px solid hsla(350 50% 50% / 0.2);
+  background: salmon url(./../../assets/thumbnail/meeting-room.jpg) border-box no-repeat;
+}
