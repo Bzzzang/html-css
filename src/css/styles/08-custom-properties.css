@@ -1,0 +1,47 @@
+@import "./../../common/reset.css";
+
+:root {
+  --yellow: #fff100;
+  --blie: #006bff;
+  --skyblue: #08c2ff;
+  --aqua: #bcf2f6;
+  --pink: #e3bfd8;
+
+  --primary: var(--pink);
+  --secondary: var(--skyblue);
+
+  /* 여백 */
+  --spacing-sm: 12px;
+  --spacing-base: 16px;
+  --spacing-lg: 20px;
+
+  --gap: var(--spacing-sm);
+
+  /* 글자 크기 */
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+
+  --default-font-size: var(--text-sm);
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: var(--default-font-size);
+}
+
+h1 {
+  margin: var(--gap);
+}
+
+p {
+  margin: var(--gap);
+}
+
+/* 지역 변수 */
+.local-variable {
+  --blue: #1e3e62;
+
+  color: var(--blue);
+}
