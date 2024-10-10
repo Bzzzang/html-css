@@ -1,0 +1,29 @@
+@import "./../../common/best-reset.css";
+
+section {
+  width: 100%;
+  inline-size: 100%;
+  height: 100dvh;
+  block-size: 100vh;
+  scroll-snap-align: start;
+}
+
+.scroll-wrapper {
+  scroll-snap-type: y mandatory;
+}
+
+.section-01 {
+  background-color: pink;
+}
+
+.section-02 {
+  background-color: lightgreen;
+}
+
+.section-03 {
+  background-color: skyblue;
+}
+
+.section-04 {
+  background-color: burlywood;
+}
